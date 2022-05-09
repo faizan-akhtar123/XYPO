@@ -1,0 +1,364 @@
+/* CSS page */
+/* Author: Faizan Akhtar */
+
+
+*{
+    font-family: 'Lato', sans-serif;
+    /* border: 1px solid red; */
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#full-container{
+    background-image: url(../images/background.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+ 
+}
+#header{
+    display: flex;
+    justify-content: space-around;
+}
+#company-logo{
+    flex: 1;
+}
+#company-logo img{
+    width: 20%;
+}
+#menubar{
+    flex: 1;
+    text-align: right;
+    padding-top: 1.5%;
+    z-index: 2;
+    /* position: relative; */
+}
+/* .sticky{
+    position: fixed;
+} */
+/* #menu-bar ul{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgba(255, 192, 203, 0.842);
+    width: 200px;
+    height: 100vh;
+}
+ul li{
+    list-style-type: none;
+    padding: 10px;
+    text-align: left;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+} */
+#menubar img{
+    width: 36px;
+}
+.unipadding{
+    padding: 0 7%;
+}
+#maincontent{
+    display: flex;
+}
+#navbar{
+    position: absolute;
+    right: 5vw;
+    top: -62vh;
+    width: 200px;
+    height: 62vh;
+    background-color: rgba(255, 192, 203, 0.753);
+    transition: 2s;
+
+}
+#navbar ul li{
+    padding: 20px;
+    border-bottom: 1px solid black;
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+#socialicons{
+    flex-basis: 7%;
+    margin-top: 9%;
+    text-align: center;
+    position: sticky;
+}
+.social_icons{
+    display: block;
+    padding: 10px;
+}
+#teach{
+    flex-basis: 30%;
+}
+#teach h1{
+    font-size: 39px;
+    margin-bottom: 2%;
+}
+.thickline1{
+    width: 80px;
+    height: 2px;
+    background-color: red;
+    margin-top: 0.5%;
+}
+.thickline2{
+    width: 60px;
+    height: 2px;
+    background-color: red;
+    margin-top: 1%;
+}
+.square-icons{
+    color: red;
+    
+}
+.btn-section{
+    margin-bottom: 0.5%;
+}
+button{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid red;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+/* About us  */
+.aboutus{
+    display: flex;
+    margin-top: 7%;
+    
+}
+.aboutusimage{
+    flex-basis: 50%;
+    
+
+}
+.aboutusimage img{
+    width: 100%;
+}
+.aboutuscontent{
+    flex-basis: 50%;
+    padding-right: 8%;
+}
+.aboutuscontent h1{
+    text-align: right;
+    font-size: 30px;
+}
+.redsquare{
+    text-align: right;
+}
+.aboutuscontent p{
+    text-align: right;
+}
+
+ .squaresection1{
+    text-align: right;
+    position: relative;
+    margin-top: 0.5%;
+}
+
+.thickline3{
+    width: 80px;
+    height: 2px;
+    background-color: red;
+    margin-top: 1%;
+    position: absolute;
+    right: 0;
+}
+.thickline4{
+    width: 60px;
+    height: 2px;
+    background-color: red;
+    margin-top: 0.5%;
+    position: absolute;
+    right: 0;
+    top: 28px;
+}
+
+#quotes{
+    text-align: right;
+    font-style: italic;
+    margin-top: 60px;
+}
+#adams{
+    text-align: right;
+    font-style: italic;
+}
+#features{
+    margin: 30px 100px;
+    display: flex;
+}
+.learnanywhere{
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+ #squaresection2{
+    text-align: center;
+    position: relative;
+    margin-top: 9%;
+}
+
+.thickline5{
+    width: 80px;
+    height: 2px;
+    background-color: red;
+    position: absolute;
+    left: 39.5%;
+    bottom: 13%;
+}
+.thickline6{
+    width: 60px;
+    height: 2px;
+    background-color: red;
+    
+    left: 41%;
+    bottom: 0%;
+    position: absolute;
+}
+
+/* browse our features */
+#browse{
+    display: flex;
+    padding: 0 8% 0 8%;
+    margin-top: 5%;
+}
+#courses{
+    flex-basis: 50%;
+}
+#btn_section3{
+    text-align: right;
+}
+#browseimage{
+    flex-basis: 50%;
+}
+#browseimage img{
+    width: 100%;
+}
+#courses h1{
+    font-size: 39px;
+    margin-bottom: 2%;
+    padding-right: 28%;
+}
+#courses p{
+    font-size: 20px;
+}
+/* Limitless learning limitless possibilities */
+#button_section{
+    text-align: right;
+}
+#limitless{
+    padding-left: 48%;
+}
+/* sign up to join our community */
+#signup{
+    display: flex;
+    padding: 0 8% 0 8%;
+}
+#community{
+    flex-basis: 50%;
+}
+#community h1{
+    margin-right: 38%;
+    font-size: 39px;
+}
+#imgcommunity{
+    flex-basis: 50%;
+}
+#imgcommunity img{
+    width: 100%;
+}
+.name input{
+    margin-bottom: 5px;
+    width: 62%;
+    height: 32px;
+    border: 1px solid red;
+}
+.name input:focus{
+    outline:none;
+}
+#startfreetrial{
+    padding: 12px 58px;
+    border: 1px solid red;
+    background-color: transparent;
+    font-weight: bold;
+}
+#startfreetrial_1{
+    padding: 12px 53px;
+    border: 1px solid red;
+    background-color: transparent;
+    font-weight: bold;
+}
+#xypo {
+    text-align: right;
+    margin: 29px 19px;
+    border-top: 2px solid gray;
+
+}
+#xypo img{
+    width: 10%;
+}
+.footersection_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 24px;
+}
+.footersection1{
+    flex: 1;
+}
+.footersection1 h4{
+    color: rgba(255, 192, 203, 0.692);
+}
+#eng{
+    text-align: right;
+}
+/* Responsive mobile site  */
+@media only screen and (max-width:500px){
+    #maincontent, .aboutus, #features, #browse, #signup, .footersection_1{
+        display: block;
+    }
+    #navbar{
+        position: absolute;
+        right: 1vw;
+    }
+    #company-logo img{
+        width: 34%;
+    }
+    .name input{
+        width: 98%;
+    }
+    #socialicons{
+        display: none;
+    }
+    #startfreetrial, #startfreetrial_1{
+        width: 100%;
+    }
+    .footersection1{
+        text-align: center;
+    }
+    .thickline5{
+        left: 11.5%;
+    }
+    .thickline6{
+        left: 17.2%;
+    }
+    #limitless{
+        padding-left: 15%;
+    }
+    #community h1{
+        margin-right: 0%;
+        font-size: 30px;
+    }
+}
